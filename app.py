@@ -102,7 +102,7 @@ def get_player_information(player_id):
         if response.status_code == 200:
             return f"Visit {player_id} GOOD ✅"
         else:
-            return f"Visit {player_id} BAD ❌: HTTP {response.status_code}"
+            pass
     except httpx.RequestError as e:
         return f"Visit {player_id} Request error: {e}"
 @app.route('/visit', methods=['GET'])
