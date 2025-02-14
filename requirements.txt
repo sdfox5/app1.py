@@ -5,3 +5,5 @@ protobuf_decoder
 pyjwt
 urllib3
 pycryptodome
+httpx
+pycryptodome
